@@ -28,13 +28,6 @@ module.exports = {
 			type: 'string',
 			default: ':gitUser:',
 			store: true
-		},
-		henris: {
-			message: "Henri's",
-			type: 'list',
-			choices: ['stable', 'beta'],
-			default: 'stable',
-			store: true
 		}
 	},
 	move(answers) {
@@ -45,15 +38,6 @@ module.exports = {
 			'_babelrc': '.babelrc',
 			'_prettierrc': '.prettierrc'
 		};
-		if (answers.henris === 'beta') {
-			moveable['henris/beta/_app.scss'] = 'assets/scss/app.scss'
-			moveable['henris/beta/_tools.scss'] = 'assets/scss/tools.scss'
-			moveable['henris/beta/_pre.scss'] = 'assets/scss/tools/_pre.scss'
-		} else {
-			moveable['henris/stable/_app.scss'] = 'assets/scss/app.scss'
-			moveable['henris/stable/_tools.scss'] = 'assets/scss/tools.scss'
-			moveable['henris/stable/_pre.scss'] = 'assets/scss/tools/_pre.scss'
-		}
 		let nuxtDir;
 		return Object.assign(moveable, move('nuxt', nuxtDir));
 	},
