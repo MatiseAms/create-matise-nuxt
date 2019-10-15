@@ -6,4 +6,4 @@ cp ./config/netlify_headers ./static/_headers
 # node env
 export NODE_ENV=production 
 
-nuxt generate
+nuxt generate --quiet --fail-on-error

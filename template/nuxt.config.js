@@ -54,13 +54,14 @@ module.exports = {
 	// 	disabled: false
 	// },
 
+	generate: {
+		fallback: true
+	},
+
 	/*
 	 ** Axios module configuration
 	 */
 	axios: {
-		retry: {
-			retries: 3
-		},
 		baseURL: config.api
 	},
 

@@ -1,3 +1,7 @@
+# netlify.toml
+CI = 1
+NPM_FLAGS = "--no-optional"
+
 [context.production]
   command = "npm run netlify:production"
 

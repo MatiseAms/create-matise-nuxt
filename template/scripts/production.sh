@@ -4,4 +4,4 @@ cp ./config/production.js ./config/latest.js
 # node env
 export NODE_ENV=production 
 
-nuxt generate
+nuxt generate --quiet --fail-on-error
