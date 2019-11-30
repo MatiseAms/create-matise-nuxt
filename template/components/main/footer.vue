@@ -1,5 +1,5 @@
 <template>
-	<footer id="footer" class="footer">
+	<footer class="footer">
 		<h5 class="sub">
 			the end..
 		</h5>
@@ -15,7 +15,7 @@ export default {};
 
 // Footer styles
 .footer {
-	padding: grid(1);
-	text-align: center;
+	padding: 3rem;
+	text-align: right;
 }
 </style>

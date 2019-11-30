@@ -1,5 +1,5 @@
 <template>
-	<header id="header" class="header">
+	<header class="header">
 		<h3>{{ projectName }}</h3>
 	</header>
 </template>
@@ -19,12 +19,6 @@ export default {
 @import '~tools';
 
 .header {
-	// Header styles
-	position: fixed;
-	top: 0;
-	left: 0;
-
-	width: 100%;
-	text-align: center;
+	padding: 3rem;
 }
 </style>

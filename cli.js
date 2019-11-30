@@ -6,7 +6,7 @@ const sao = require('sao')
 const generator = path.resolve(__dirname, './')
 const outDir = path.resolve(process.argv[2] || '.')
 
-console.log(`> Generating Matise Nuxt.js project in ${outDir}`);
+console.log(`> Generating a Matise Nuxt.js project in ${outDir}`);
 
 sao({ generator, outDir, npmClient: 'npm' })
 	.run()

@@ -52,8 +52,6 @@ module.exports = {
 		await this.npmInstall({
 			packages: [
 				'nuxt-rfg-icon',
-				'henris',
-				'@henris/custom',
 				'babel-eslint',
 				'eslint',
 				'eslint-config-prettier',
@@ -73,4 +71,3 @@ module.exports = {
 		this.showProjectTips()
 	}
 }
-
