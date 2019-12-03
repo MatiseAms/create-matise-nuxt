@@ -1,11 +1,22 @@
 // $font-primary: (
+<<<<<<< HEAD
 // 	font-family: (Apercu, serif),
 // 	load: true,
 // 	weights: (
+=======
+// 	font-family: (
+// 		Graphik,
+// 		serif
+// 	),
+// 	load: true,
+// 	weights: (
+// 		'Light': 100,
+>>>>>>> parent of b8bbcd5... Add fonts and grid and media queries
 // 		'Regular': 400,
 // 		'Medium': 500,
 // 		'Bold': 600
 // 	),
+<<<<<<< HEAD
 // 	font-weights: true,
 // 	path: '/fonts',
 // 	files: (
@@ -15,6 +26,15 @@
 // 	),
 // 	use: (
 // 		'h1',
+=======
+// 	path: '~assets/fonts',
+// 	files: (
+// 		'woff2',
+// 		'ttf',
+// 		'eot'
+// 	),
+// 	use: (
+>>>>>>> parent of b8bbcd5... Add fonts and grid and media queries
 // 		'p',
 // 		'body'
 // 	),
