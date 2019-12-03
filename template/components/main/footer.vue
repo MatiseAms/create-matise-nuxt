@@ -1,8 +1,6 @@
 <template>
 	<footer class="footer">
-		<h5 class="sub">
-			the end..
-		</h5>
+		<h2>Footor</h2>
 	</footer>
 </template>
 
@@ -11,8 +9,6 @@ export default {};
 </script>
 
 <style lang="scss">
-@import '~tools';
-
 // Footer styles
 .footer {
 	padding: 3rem;

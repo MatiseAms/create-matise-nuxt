@@ -1,6 +1,6 @@
 <template>
 	<header class="header">
-		<h3>{{ projectName }}</h3>
+		<h2>{{ projectName }}</h2>
 	</header>
 </template>
 
@@ -16,8 +16,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~tools';
-
 .header {
 	padding: 3rem;
 }
