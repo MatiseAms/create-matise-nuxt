@@ -1,6 +1,10 @@
 {
 	"name": "create-matise-nuxt",
+<<<<<<< HEAD
 	"version": "0.1.5",
+=======
+	"version": "0.1.6",
+>>>>>>> parent of 2dbfa8e... WIP
 	"description": "Create Matise Nuxt.js App.",
 	"bin": "cli.js",
 	"files": [
@@ -9,7 +13,7 @@
 		"template/"
 	],
 	"repository": {
-		"url": "git+https://github.com/matiseams/automatise-nuxt.git",
+		"url": "git+https://github.com/matiseams/create-matise-nuxt.git",
 		"type": "git"
 	},
 	"scripts": {
@@ -23,7 +27,6 @@
 	"devDependencies": {},
 	"authors": [
 		"Sil van Diepen <sil@matise.nl>",
-		"Cyd Stumpel <cyd@matise.nl>",
 		"Stephan Hoogland <stephan@matise.nl>"
 	],
 	"license": "MIT"

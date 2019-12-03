@@ -1,14 +1,35 @@
 <template>
-	<div>
-		<SectionGenerate :sections="[{ acf_fc_layout: 'simple_content' }]" />
-	</div>
+	<main class="page page--home">
+		<section class="intro">
+			<henris-nuxt />
+		</section>
+	</main>
 </template>
 
 <script>
-import SectionGenerate from '~/components/section/generate.vue';
+import henrisNuxt from '~/components/henris-nuxt.vue';
 export default {
 	components: {
-		SectionGenerate
+		henrisNuxt
 	}
 };
 </script>
+
+<style lang="scss">
+@import '~tools';
+
+.page {
+	// general page styles
+	&--home {
+		// specific home styles
+	}
+}
+
+.intro {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+</style>
